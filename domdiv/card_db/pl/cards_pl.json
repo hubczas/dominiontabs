@@ -897,7 +897,7 @@
     "Archive": {
         "description": "+1 Action<n>Set aside the top 3 cards of your deck face down (you may look at them). Now and at the start of your next two turns, put one into your hand.", 
         "extra": "You look at three cards, and get one now, one next turn, and one the turn after that. Put the set-aside cards under Archive. If you play two Archives, they get separate sets of cards. If you Throne Room an Archive, keep the sets of cards separate; you get one from each each turn. If there are fewer than three cards, just set aside what you can, and Archive will run out of cards faster and still be discarded the turn it has no cards left.", 
-        "name": "Archive"
+        "name": "Archiwum"
     },
     "Arena": {
         "description": "At the start of your Buy phase, you may discard an Action card. If you do, take 2<VP> from here.<line>Setup: Put 6<VP> here per player.", 
@@ -932,37 +932,37 @@
     "Bustling Village": {
         "description": "+1 Card<br>+3 Actions<n>Look through your discard pile. You may reveal a Settlers from it and put it into your hand.", 
         "extra": "You can look through your discard pile even if you know there are no Settlers in it.", 
-        "name": "Bustling Village"
+        "name": "Gwarna Wioska"
     },
     "Capital": {
         "description": "6 Coins<br>+1 Buy<line>When you discard this from play, take 6 Debt, and then you may pay off Debt.", 
         "extra": "When you discard this from play (normally, in the Clean-up phase of the turn you played it), you get 6 Debt, and then get an extra opportunity to pay off Debt with Coins, right then. You do not get the Debt if you did not discard it from play - for example, if you trash it due to Counterfeit (from Dark Ages). You only get Debt per copy of Capital discarded; for example if you use Crown to play Capital twice, you still only get 6 Debt when you discard it from play.", 
-        "name": "Capital"
+        "name": "Kapitał"
     },
     "Castles": {
         "description": "Sort the Castle pile by cost, putting the more expensive Castles on the bottom. For a 2-player game, use only one of each Castle. Only the top card of the pile can be gained or bought.", 
         "extra": "Humble Castle and King's Castle count themselves. Small Castle gains you the top Castle, whichever one that is. Haunted Castle works whether you buy it or gain it some other way, provided that it is your turn. You can pick either option on Sprawling Castle regardless of how many Duchies and Estates are left in the piles. Grand Castle counts both Victory cards in play - such as an Opulent Castle - and Victory cards in your hand.", 
-        "name": "Castles"
+        "name": "Zamki"
     },
     "Catapult": {
         "description": "+1 Coin<n>Trash a card from your hand. If it costs 3 Coins or more, each other player gains a Curse. If it's a Treasure, each other player discards down to 3 cards in hand.", 
         "extra": "If the card you trash is a treasure, each other player discards down to 3 cards in hand; if the card you trash costs 3 Coins or more, each other player gains a Curse; if it is both (e.g. Silver), both things happen; if it is neither, neither thing happens. If you have no cards in hand left to trash, neither thing happens.", 
-        "name": "Catapult"
+        "name": "Katapulta"
     },
     "Chariot Race": {
         "description": "+1 Action<n>Reveal the top card of your deck and put it into your hand. The player to your left reveals the top card of their deck. If your card costs more, +1 Coin and +1<VP>.", 
         "extra": "You and the player to your left reveal your top cards; yours goes into your hand, theirs goes back on their deck. If your card cost more you get +1 Coin and +1<VP>; you can put the token on the Chariot Race to remind you that it made +1 Coin this turn. If it is a tie, your card did not cost more. With Debt, your card costs more only if both Coin and Debt amounts are larger, or one is larger and the other the same. For example Fortune (8 Coins 8 Debt) costs more than Overlord (5 Debt), but Overlord does not cost more than Silver, and Silver does not cost more than Overlord. If either player has no card to reveal, your card does not cost more.", 
-        "name": "Chariot Race"
+        "name": "Wyścig rydwanów"
     },
     "Charm": {
         "description": "When you play this, choose one: +1 Buy and +2 Coin; or the next time you buy a card this turn, you may also gain a differently named card with the same cost.", 
         "extra": "These are cumulative, and each Charm does not have to gain a different card, just a different card from the one bought. For example if you play two Charms and buy a Forum, you could gain two Duchies. The card gained from Charm is gained before gaining the card you bought, which may matter when cards do things when gained. For example if you buy Villa and gain Rocks via Charm, you will first gain a Silver to your deck due to Rocks, then get +1 Action and return to your Action phase due to Villa. The costs have to be identical; for example if you play Charm and buy Overlord, you can gain City Quarter, which also costs 8 Debt, but not Fortune, which costs 8 Coin 8 Debt.", 
-        "name": "Charm"
+        "name": "Klejnot"
     },
     "City Quarter": {
         "description": "+2 Actions<n>Reveal your hand. +1 Card per Action card revealed.", 
         "extra": "Cards with multiple types that include Action, such as Crown, are Actions.", 
-        "name": "City Quarter"
+        "name": "Dzielnica"
     },
     "Colonnade": {
         "description": "When you buy an Action card, if you have a copy of it in play, take 2<VP> from here.<line>Setup: Put 6<VP> here per player.", 
@@ -977,7 +977,7 @@
     "Crown": {
         "description": "If it's your Action phase, you may play an Action from your hand twice. If it's your Buy phase, you may play a Treasure from your hand twice.", 
         "extra": "If you play this in your Action phase, you play an Action card from your hand, then play the same card again; this does not use up any extra Actions you have. If you play this in your Buy phase, you play a Treasure from your hand, then play it again; this does not use up any Actions at all. Crown can be used to play another Crown in either your Action or Buy phase, causing you to either play two more Actions twice each, or two more Treasures twice each. If you play Crown in your Action phase via something that lets you play Treasures (like Storyteller from Adventures), Crown will still play an Action card twice.", 
-        "name": "Crown"
+        "name": "Korona"
     },
     "Defiled Shrine": {
         "description": "When you gain an Action, move 1<VP> from its pile to this. When you buy a Curse, take the <VP> from this.<line>Setup: Put 2<VP> on each non-Gathering Action Supply pile.", 
@@ -1007,27 +1007,27 @@
     "Encampment": {
         "description": "+2 Cards<br>+2 Actions<n>You may reveal a Gold or Plunder from your hand. If you do not, set this aside, and return it to the Supply at the start of Clean-up.", 
         "extra": "Revealing a Plunder or Gold is optional. When you return Encampment to the Supply, it goes on top of its pile, potentially covering up a Plunder.", 
-        "name": "Encampment"
+        "name": "Obozowisko"
     },
     "Enchantress": {
         "description": "Until your next turn, the first time each other play plays an Action card on their turn, they get +1 Card and +1 Action instead of following its instructions.<n><n>At the start of your next turn,<n>+2 Cards", 
         "extra": "Players revealing a card like Moat when this is played have to do it right then, not later, even though the attack will not hurt them until their turn. The first Action each other player plays, just on their next turn, will give them +1 Card +1 Action instead of what it would have normally done. This does not affect abilities below a dividing line; they still function. For example a player playing Sacrifice would get +1 Card +1 Action and not do anything Sacrifice normally does; a player playing Groundskeeper would get +1 Card +1 Action and would still get <VP> for gaining Victory cards. It can be helpful to turn the affected card sideways, to remember that it did not do what it normally did. Enchantress does not affect card abilities from cards played on previous turns; for example if an opponent plays Enchantress and you have an Archive out from a previous turn, on your turn you will first get a card from your Archive as normal, and then the first Action card actually played on that turn will be affected by Enchantress. If Enchantress affects a Crown played in a Buy phase, its player gets +1 Card +1 Action, but has no way to use the +1 Action, since it is their Buy phase (but it might matter e.g. if the player buys Villa).", 
-        "name": "Enchantress"
+        "name": "Czarodziejka"
     },
     "Engineer": {
         "description": "Gain a card costing up to 4 Coins. You may trash this. If you do, gain a card costing up to 4 Coins.", 
         "extra": "Engineer cannot gain copies of itself, or any other card with Debt in the cost. When you play it, you gain a card, then may trash Engineer to gain a second card (which can be the same as the first or different).", 
-        "name": "Engineer"
+        "name": "Inżynier"
     },
     "Farmers' Market": {
         "description": "+1 Buy<n>If there are 4 <VP> or more on the Farmers' Market Supply pile, take them and trash this. Otherwise, add 1 <VP> to the pile and then +1 Coin per 1 <VP> on the pile.", 
         "extra": "The first time this is played, it produces +1 Coin (and +1 Buy), the next time +2 Coin, then +3 Coin, then +4 Coin, then the next time the player takes the 4 <VP> (and gets no + _ Coin), then the next time it is back to +1 Coin. This still functions if the Farmers' Market pile is empty.", 
-        "name": "Farmers' Market"
+        "name": "Targ rolny"
     },
     "Fortune": {
         "description": "+1 Buy<n>When you play this, double your Coin if you haven't yet this turn.<line>When you gain this, gain a Gold per Gladiator you have in play.", 
         "extra": "You only double your Coin the first time you play a Fortune in a turn; any further times only get you +1 Buy.", 
-        "name": "Fortune"
+        "name": "Fortuna"
     },
     "Forum": {
         "description": "+3 Cards<br>+1 Action<n>Discard 2 cards.<line>When you buy this, +1 Buy.", 
@@ -1047,7 +1047,7 @@
     "Groundskeeper": {
         "description": "+1 Card<br>+1 Action<line>While this is in play, when you gain a Victory card, +1<VP>", 
         "extra": "This can trigger multiple times in a turn, for cards gained different ways. For example you could play Groundskeeper, then play Engineer gaining an Estate and taking 1<VP>, then in your Buy phase buy a Duchy taking another +1<VP>. Multiple Groundskeepers are cumulative. If you Crown a Groundskeeper, there is still just one Groundskeeper in play, so you only get +1<VP> per Victory card gained.", 
-        "name": "Groundskeeper"
+        "name": "Ogrodnik"
     },
     "Keep": {
         "description": "When scoring, 5<VP> per differently named Treasure you have, that you have more copies of than each other player, or tied for most.", 
@@ -1062,7 +1062,7 @@
     "Legionary": {
         "description": "+3 Coin<n>You may reveal a Gold from your hand. If you do, each other player discards down to 2 cards in hand, then draws a card.", 
         "extra": "Players wishing to respond to the Attack (e.g. with Moat) must do so before you choose whether or not to reveal a Gold.", 
-        "name": "Legionary"
+        "name": "Legionista"
     },
     "Mountain Pass": {
         "description": "When you are the first player to gain a Province, after that turn, each player bids once, up to 40 Debt, ending with you. High bidder gets +8<VP> and takes the Debt they bid.", 
@@ -1087,7 +1087,7 @@
     "Overlord": {
         "description": "Play this as if it were an Action card in the Supply costing up to 5 Coin. This is that card until it leaves play.", 
         "extra": "When you play this, you pick an Action card from the Supply that costs up to 5 Coin, and treat this card as if it were the card you chose. Normally this will just mean that you follow the instructions on the card you picked. For example, with Village in the Supply, you could play Overlord as Village and get +1 Card +2 Actions. Overlord also gets the chosen card's cost, name, and types, until it leaves play. If you play Overlord as a card that moves itself somewhere, such as to the trash or the Supply, Overlord will do that; for example Overlord played as Encampment will be set aside and return to the Overlord pile at the start of Clean-up. If you play Overlord as a Duration card, or as a Throne Room on a Duration card, Overlord will stay in play the same way the Duration card or Throne Room would. If you play an Overlord multiple times such as via a Throne Room, you will only pick what to play it as the first time; the other times it will be the same thing. Once in play, Overlord is the thing it copied, rather than an Overlord; for example Colonnade will produce <VP> if you buy a copy of that card, but not if you buy an Overlord. Overlord can only be played as a visible card in the Supply, and the top card of a pile; it cannot be played as a card from an empty pile, or as a card that has not been uncovered from a split pile, or as a card from a split pile that has been bought out, or as a non-Supply card (like Mercenary from Dark Ages). Overlord cannot be played as Crown during a Buy phase, since Overlord itself is not a Treasure and so cannot be played in Buy phases.", 
-        "name": "Overlord"
+        "name": "Władca"
     },
     "Palace": {
         "description": "When scoring, 3<VP> per set you have of Copper - Silver - Gold.", 
@@ -1097,12 +1097,12 @@
     "Patrician": {
         "description": "+1 Card<br>+1 Action<n>Reveal the top card of your deck. If it costs 5 Coin or more, put it into your hand.", 
         "extra": "Cards costing Debt do not cost 5 Coin or more unless they also have a Coin cost of 5 Coin or more. So Fortune does but City Quarter does not.", 
-        "name": "Patrician"
+        "name": "Patrycjusz"
     },
     "Plunder": {
         "description": "+2 Coin<br>+1<VP>", 
         "extra": "This gives you a <VP> token every time you play it.", 
-        "name": "Plunder"
+        "name": "Zdobycz"
     },
     "Ritual": {
         "description": "Gain a Curse. If you do, trash a card from your hand. +1<VP> per 1 Coin it cost.", 
@@ -1112,17 +1112,17 @@
     "Rocks": {
         "description": "+1 Coin<line>When you gain or trash this, gain a Silver; if it is your Buy phase, put the Silver on your deck, otherwise put it into your hand.", 
         "extra": "If it is another player's turn, then it is not your Buy phase, so the Silver goes to your hand.", 
-        "name": "Rocks"
+        "name": "Głazy"
     },
     "Royal Blacksmith": {
         "description": "+5 Cards<n>Reveal your hand; discard the Coppers.", 
         "extra": "You discard both Coppers that were in your hand already, and Coppers drawn in the +5 Cards.", 
-        "name": "Royal Blacksmith"
+        "name": "Królewski kowal"
     },
     "Sacrifice": {
         "description": "Trash a card from your hand.<n>If it's an...<n>Action card, +2 Cards, +2 Actions<n>Treasure card, +2 Coin<n>Victory card, +2<VP>", 
         "extra": "If you trash a card with multiple types, you get all relevant bonuses; for example if you trash Crown, you get +2 Cards, +2 Actions, and +2 Coin. If you trash a card with no relevant types (such as Curse), you get nothing.", 
-        "name": "Sacrifice"
+        "name": "Ofiara"
     },
     "Salt the Earth": {
         "description": "+1<VP><n>Trash a Victory card from the Supply.", 
@@ -1132,7 +1132,7 @@
     "Settlers": {
         "description": "+1 Card<br>+1 Action<n>Look through your discard pile. You may reveal a Copper from it and put it into your hand.", 
         "extra": "You can look through your discard pile even if you know there is no Copper in it.", 
-        "name": "Settlers"
+        "name": "Osadnicy"
     },
     "Tax": {
         "description": "Add 2 Debt to a Supply pile.<line>Setup: Add 1 Debt to each Supply pile. When a player buys a card, they take the Debt from its pile.", 
@@ -1142,7 +1142,7 @@
     "Temple": {
         "description": "+1<VP><n>Trash from 1 to 3 differently named cards from your hand. Add 1<VP> to the Temple Supply pile.<line>When you gain this, take the <VP> from the Temple Supply pile.", 
         "extra": "You get +1<VP>, trash 1, 2, or 3 cards with different names from your hand (for example a Copper and an Estate, but not two Coppers), then add 1<VP> (from the supply) to the Temple pile. Gaining a Temple (whether buying it or otherwise) gives you all the <VP> that has accumulated on the pile. The pile gets <VP> even if it is empty; this only matters if there is a way to return a Temple to the pile (like Ambassador from Seaside) or a way to gain one from the trash (like Graverobber from Dark Ages).", 
-        "name": "Temple"
+        "name": "Świątynia"
     },
     "Tomb": {
         "description": "When you trash a card, +1<VP>.", 
@@ -1167,7 +1167,7 @@
     "Villa": {
         "description": "+2 Actions<br>+1 Buy<br>+1 Coin<line>When you gain this, put it into your hand, +1 Action, and if it's your Buy phase return to your Action phase.", 
         "extra": "If you gain this during your Action phase, such as with Engineer, you will put the Villa into your hand and get +1 Action (letting you, for example, play the Villa). If you gain this during your Buy phase (such as by buying it), you will put the Villa into your hand, get +1 Action, and return to your Action phase. This will let you play more Action cards (such as the Villa); when you are done with that you will return to your Buy phase, from the beginning - you can play more Treasures (and Arena will trigger again). If you buy Villa, that uses up your default Buy for the turn, however playing Villa will give you +1 Buy and so let you buy another card in your second Buy phase. If you gain this during another player's turn, you will put the Villa into your hand and get +1 Action, but will have no way to use that Action, since it is not your turn. It is possible to return to your Action phase multiple times in a turn via buying multiple Villas. Returning to your Action phase does not cause \"start of turn\" abilities to repeat; they only happen at the start of your turn.", 
-        "name": "Villa"
+        "name": "Willa"
     },
     "Wall": {
         "description": "When scoring, -1<VP> per card you have after the first 15.", 
@@ -1182,7 +1182,7 @@
     "Wild Hunt": {
         "description": "Choose one: +3 Cards and add 1<VP> to the Wild Hunt Supply pile; or gain an Estate, and if you do, take the <VP> from the pile.", 
         "extra": "If the Estate pile is empty, you can choose that option but will not get the <VP> tokens. Wild Hunt still functions normally if the Wild Hunt pile is empty.", 
-        "name": "Wild Hunt"
+        "name": "Dziki Gon"
     },
     "Windfall": {
         "description": "If your deck and discard pile are empty, gain 3 Golds.", 
